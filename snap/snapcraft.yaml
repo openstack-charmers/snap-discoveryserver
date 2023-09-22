@@ -25,6 +25,9 @@ hooks:
   install:
     plugs:
       - network
+  configure:
+    plugs:
+      - network
 
 parts:
   etcd:
